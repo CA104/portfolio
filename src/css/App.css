@@ -4,6 +4,11 @@ body {
 	color: white;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
 .menu {
 	background-color: black;
 	position: fixed;
@@ -11,7 +16,7 @@ body {
 	left: 0%;
 	z-index: 2;
 	width: 100%;
-	border-bottom: 1px solid goldenrod;
+	border-bottom: 1px solid turquoise;
 }
 
 .logo {
@@ -32,22 +37,22 @@ body {
 	color: goldenrod;
 	transition-duration: 0.25s;
 	border-style: solid;
-	background-color: goldenrod;
+	background-color: gold;
 	color: black;
 	padding: 0.25em 1em;
 	border-radius: 0.5em;
 }
 
-.name {
+h1 {
 	text-transform: uppercase;
 	font-size: 2.5em;
 	padding: 2.5em 1em;
 	background-color: black;
 	margin: 3em 1em 1em 1em;
-	height: 3em;
 	background-image: url('https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
 	background-attachment: fixed;
 	background-size: contain;
+	text-align: right;
 }
 
 .bio {
@@ -55,9 +60,7 @@ body {
 	grid-template-columns: 1fr;
 	padding: 1em;
 	margin: 2em;
-	border-style: solid;
-	border-width: 0 1px 1px 0;
-	border-color: goldenrod;
+	border-right: 3px solid deeppink;
 }
 
 .headshot {
@@ -86,21 +89,33 @@ body {
 	height: 5em;
 	object-fit: scale-down;
 	padding: 1.5em;
-	border: 1px solid goldenrod;
+	border: 1px solid turquoise;
 }
 
 .languages img:hover {
-	background-color: goldenrod;
+	background-color: deeppink;
 	opacity: 50%;
 	border: 1px solid black;
 }
 
-/*****  MEDIA QUERY *****/
+
+
+/*****   CONTACT PAGE   *****/
+.contact {
+	text-align: center;
+	border: 5px solid turquoise;
+	padding: 5em 0;
+	margin: 0 3em 3em 3em;
+}
+
+.contact:hover {
+	border: 5px double turquoise;
+}
+
+
+
+/*****   MEDIA QUERY   *****/
 @media only screen and (min-width: 750px) {
-	.bio {
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 1em;
-	}
 
 	.languages {
 		margin: 0 2em;
