@@ -1,58 +1,64 @@
 body {
 	font-family: 'Exo 2', sans-serif;
-	background-color: black;
-	color: white;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
-a {
+li, a {
+	list-style: none;
 	text-decoration: none;
 	color: white;
 }
 
 .menu {
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 	position: fixed;
 	top: 0%;
 	left: 0%;
 	z-index: 2;
 	width: 100%;
-	border-bottom: 1px solid turquoise;
+	border-bottom: 1px solid rgb(64, 224, 208);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.menu-items {
+	margin: auto;
+	text-align: left;
+}
+
+.menu-items a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	margin: 0.5em auto;
+	padding: 0 0.5em;
+	display: inline-block;
+}
+
+.menu-items a:hover {
+	border-left: 4px double gold;
+	border-radius: 0.5em;
+	transition-duration: 0.25s;
 }
 
 .logo {
 	width: 7em;
 	text-align: left;
-	padding: 2em 1.25em 0em 2em;
-}
-
-.menu a {
-	text-decoration: none;
-	color: white;
-	display: inline-block;
-	padding: 0.25em 1em;
-	margin: 2em 0;
-}
-
-.menu a:hover {
-	color: goldenrod;
-	transition-duration: 0.25s;
-	border-style: solid;
-	background-color: gold;
-	color: black;
-	padding: 0.25em 1em;
-	border-radius: 0.5em;
+	padding: 2em 0 1em 2em;
 }
 
 h1 {
 	text-transform: uppercase;
 	font-size: 2.5em;
-	padding: 2.5em 1em;
-	background-color: black;
+	padding: 2em 1em;
+	background-color: rgb(0, 0, 0);
 	margin: 3em 1em 1em 1em;
 	background-image: url('https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
 	background-attachment: fixed;
 	background-size: contain;
 	text-align: right;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .bio {
@@ -60,7 +66,8 @@ h1 {
 	grid-template-columns: 1fr;
 	padding: 1em;
 	margin: 2em;
-	border-right: 3px solid deeppink;
+	border-right: 3px solid rgb(255, 20, 147);
+	animation-duration: 1s;
 }
 
 .headshot {
@@ -71,7 +78,7 @@ h1 {
 .linkedin, .git {
 	width: 1.5em;
 	margin: 2em 0.25em 0.25em 0.25em;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	border-radius: 0.25em;
 	cursor: pointer;
 	padding: 0.25em;
@@ -89,13 +96,15 @@ h1 {
 	height: 5em;
 	object-fit: scale-down;
 	padding: 1.5em;
-	border: 1px solid turquoise;
+	border: 1px solid rgb(64, 224, 208);
 }
 
 .languages img:hover {
-	background-color: deeppink;
+	background-color: rgb(255, 20, 147);
 	opacity: 50%;
-	border: 1px solid black;
+	border: 1px solid rgb(0, 0, 0);
+	transition-duration: 0.5s;
+	box-shadow: 0px 30px 100px -10px rgb(255, 20, 147);
 }
 
 
@@ -103,13 +112,34 @@ h1 {
 /*****   CONTACT PAGE   *****/
 .contact {
 	text-align: center;
-	border: 5px solid turquoise;
+	border: 5px solid rgb(64, 224, 208);
 	padding: 5em 0;
 	margin: 0 3em 3em 3em;
 }
 
 .contact:hover {
-	border: 5px double turquoise;
+	border: 5px double rgb(64, 224, 208);
+}
+
+
+
+/*****   MY WORK PAGE   *****/
+.project {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1px;
+	margin: 2em 3em;
+}
+
+.nowPlaying {
+	width: 25em;
+	margin: 0 auto 1em auto;
+	cursor: pointer;
+}
+
+.nowPlaying:hover {
+	box-shadow: 0px 30px 100px -10px rgb(64, 224, 208);
+	transition-duration: 1s;
 }
 
 
@@ -124,5 +154,16 @@ h1 {
 
 	.languages img {
 		width: 7em;
+	}
+
+	.project {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2em;
+	}
+
+	.nowPlaying {
+		width: 30em;
+		margin: 0 auto 1em auto;
+		cursor: pointer;
 	}
 }

@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<>
 		<h1>Carlos Arellano</h1>
-		<div className='bio'>
+		<div className='bio animated fadeInRight'>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 			Consequuntur, modi. Repellendus labore tempore, libero, 
 			natus at reiciendis nemo exercitationem assumenda alias 
