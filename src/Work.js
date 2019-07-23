@@ -8,8 +8,8 @@ const Work = (  ) => {
 		<div>
 			<h1>My work</h1>
 
-			<div className= 'project'>
-				<img src= {nowPlaying} alt= 'Now Playing project preview' className= 'nowPlaying' />
+			<div className= 'project animated fadeInRight'>
+				<img src= {nowPlaying} alt= 'Now Playing project preview' className= 'nowPlaying' id= 'nowPlaying' />
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 			Consequuntur, modi. Repellendus labore tempore, libero, 
 			natus at reiciendis nemo exercitationem assumenda alias 

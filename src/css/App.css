@@ -2,6 +2,12 @@ body {
 	font-family: 'Exo 2', sans-serif;
 	background-color: rgb(0, 0, 0);
 	color: rgb(255, 255, 255);
+	background-image: url('https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: right;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 li, a {
@@ -50,15 +56,10 @@ li, a {
 h1 {
 	text-transform: uppercase;
 	font-size: 2.5em;
-	padding: 2em 1em;
-	background-color: rgb(0, 0, 0);
+	padding: 1.5em 1em;
+	background-color: rgba(0, 0, 0, 75%);
 	margin: 3em 1em 1em 1em;
-	background-image: url('https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
-	background-attachment: fixed;
-	background-size: contain;
-	text-align: right;
-	background-repeat: no-repeat;
-	background-position: center center;
+	
 }
 
 .bio {
@@ -68,11 +69,7 @@ h1 {
 	margin: 2em;
 	border-right: 3px solid rgb(255, 20, 147);
 	animation-duration: 1s;
-}
-
-.headshot {
-	width: 10em;
-	margin: auto;
+	background-color: rgba(0, 0, 0, 75%);
 }
 
 .linkedin, .git {
@@ -89,6 +86,7 @@ h1 {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 1em;
 	padding: 2em;
+	background-color: rgba(0, 0, 0, 75%);
 }
 
 .languages img {
@@ -102,9 +100,8 @@ h1 {
 .languages img:hover {
 	background-color: rgb(255, 20, 147);
 	opacity: 50%;
-	border: 1px solid rgb(0, 0, 0);
 	transition-duration: 0.5s;
-	box-shadow: 0px 30px 100px -10px rgb(255, 20, 147);
+	box-shadow: 0px 30px 100px -10px rgb(64, 224, 208);
 }
 
 
@@ -115,6 +112,7 @@ h1 {
 	border: 5px solid rgb(64, 224, 208);
 	padding: 5em 0;
 	margin: 0 3em 3em 3em;
+	background-color: rgba(0, 0, 0, 75%);
 }
 
 .contact:hover {
@@ -129,6 +127,7 @@ h1 {
 	grid-template-columns: 1fr;
 	grid-gap: 1px;
 	margin: 2em 3em;
+	background-color: rgba(0, 0, 0, 75%);
 }
 
 .nowPlaying {
@@ -146,6 +145,11 @@ h1 {
 
 /*****   MEDIA QUERY   *****/
 @media only screen and (min-width: 750px) {
+
+	.logo {
+		width: 9em;
+		transition-duration: 0.25s;
+	}
 
 	.languages {
 		margin: 0 2em;

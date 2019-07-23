@@ -14,7 +14,7 @@ import gat from './img/gatsbyjs.svg'
 
 const Skills = () => {
 	return (
-	  <div class="languages">
+	  <div class="languages animated fadeInLeft">
 			  <img src= {html5} alt="" />
 			  <img src= {css} alt="" />
 			  <img src= {js} alt="" />

@@ -10,7 +10,7 @@ const Contact = (  ) => {
 				Contact me
 			</h1>
 
-			<div className= 'contact'>
+			<div className= 'contact animated fadeInRight'>
 				<a href= 'mailto:carlos_arellano@hotmail.ca'>Email: carlos_arellano@hotmail.ca</a>
 				<p>Phone: [647] 986-4001</p>
 				<div>
