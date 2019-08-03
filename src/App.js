@@ -17,7 +17,7 @@ const App = () => {
 		<div className= 'menu-items'>
 		<Link to= '/' exact component= {Home} > Home </Link>
 		<Link to= '/contact' component= {Contact} > Contact me </Link>
-		<Link to= '/mywork' component= {Work} >See my work</Link>
+		<Link to= '/mywork' component= {Work} >My work</Link>
 		<Link to= '/skills' component= {Skills} >Skills</Link>
 		</div>
 		</nav>

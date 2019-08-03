@@ -1,6 +1,5 @@
 import React from 'react'
 import './css/App.css'
-import Skills from './Skills'
 import linkedin from './img/linkedin.png'
 import git from './img/github-sign.png'
 
