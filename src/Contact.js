@@ -11,11 +11,15 @@ const Contact = (  ) => {
 			</h1>
 
 			<div className= 'contact animated fadeInRight'>
-				<a href= 'mailto:carlos_arellano@hotmail.ca'>Email: carlos_arellano@hotmail.ca</a>
-				<p>Phone: [647] 986-4001</p>
+				<a href= 'mailto:carlos_arellano@hotmail.ca'>carlos_arellano@hotmail.ca</a>
+				<p>[647] 986-4001</p>
 				<div>
+				<a href="https://www.linkedin.com/in/carlos-arellano-43a530105/" target= '_blank' rel='noreferrer noopener' >
 				<img id= 'linkedIn' src= {linkedin} alt="" className= 'linkedin' />
+				</a>
+				<a href="https://github.com/" target= '_blank' rel='noreferrer noopener' >
 				<img id= 'gitHub' src= {git} alt="" className= 'git' />
+				</a>
 			</div>
 			</div>
 		</div>

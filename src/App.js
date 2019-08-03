@@ -5,6 +5,7 @@ import Contact from './Contact'
 import Work from './Work'
 import './css/App.css'
 import white from './img/full-logo-white.png'
+import Skills from './Skills';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
 		<Link to= '/' exact component= {Home} > Home </Link>
 		<Link to= '/contact' component= {Contact} > Contact me </Link>
 		<Link to= '/mywork' component= {Work} >See my work</Link>
+		<Link to= '/skills' component= {Skills} >Skills</Link>
 		</div>
 		</nav>
 
@@ -24,6 +26,7 @@ const App = () => {
 			<Route path= '/' exact component= {Home} />
 			<Route path= '/contact' component= {Contact} />
 			<Route path= '/mywork' component= {Work} />
+			<Route path= '/skills' component= {Skills} />
 		</div>
 	</Router>
 	</>

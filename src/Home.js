@@ -9,6 +9,7 @@ const Home = () => {
 		<>
 		<h1>Carlos Arellano</h1>
 		<div className='bio animated fadeInRight'>
+			<h2>About me</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 			Consequuntur, modi. Repellendus labore tempore, libero, 
 			natus at reiciendis nemo exercitationem assumenda alias 
@@ -23,12 +24,15 @@ const Home = () => {
 			</p>
 
 			<div>
+				<a href="https://www.linkedin.com/in/carlos-arellano-43a530105/" target= '_blank' rel='noreferrer noopener' >
 				<img id= 'linkedIn' src= {linkedin} alt="" className= 'linkedin' />
+				</a>
+				<a href="https://github.com/" target= '_blank' rel='noreferrer noopener' >
 				<img id= 'gitHub' src= {git} alt="" className= 'git' />
+				</a>
 			</div>
 			
     	</div>
-		<Skills />
 		</>
 	)
 }
