@@ -16,8 +16,8 @@ const App = () => {
 		<img src= { white } alt= 'Arellano Designs Logo' className= 'logo' />
 		<div className= 'menu-items'>
 		<Link to= '/' exact component= {Home} > Home </Link>
-		<Link to= '/contact' component= {Contact} > Contact me </Link>
-		<Link to= '/mywork' component= {Work} >My work</Link>
+		<Link to= '/contact' component= {Contact} > Contact </Link>
+		<Link to= '/mywork' component= {Work} > Work </Link>
 		<Link to= '/skills' component= {Skills} >Skills</Link>
 		</div>
 		</nav>
