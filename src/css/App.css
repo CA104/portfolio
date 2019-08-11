@@ -9,6 +9,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	transition-duration: 0.25s;
+	background-color: rgb(150, 150, 150);
+	background-blend-mode: multiply;
 }
 
 li, a {
@@ -62,9 +64,9 @@ li, a {
 h1 {
 	text-transform: uppercase;
 	font-size: 2.25em;
-	padding: 2em 1em;
+	padding: 1.5em 1em;
 	background-color: rgba(45, 45, 45, 85%);
-	margin: 5em 1em 2em 1em;
+	margin: 5.5em 1em 2em 1em;
 	border-radius: 0.25em;
 	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
 }
@@ -73,7 +75,7 @@ h1 {
 	display: grid;
 	grid-template-columns: 1fr;
 	padding: 1em;
-	margin: 2em;
+	margin: 5em 5em;
 	animation-duration: 1s;
 	background-color: rgba(45, 45, 45, 85%);
 	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
@@ -98,7 +100,7 @@ h1 {
 	grid-gap: 1em;
 	padding: 2em;
 	background-color: rgba(45, 45, 45, 85%);
-	margin: 3em 0 1em 0;
+	margin: 3em 0 5em 0;
 	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
 }
 
@@ -126,13 +128,20 @@ h1 {
 	text-align: center;
 	border: 5px solid rgb(64, 224, 208);
 	padding: 5em 0;
-	margin: 3em 3em 3em 3em;
+	margin: 3em 5em 5em 5em;
 	background-color: rgba(45, 45, 45, 85%);
 	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
 }
 
 .contact:hover {
 	border: 5px double rgb(64, 224, 208);
+}
+
+.info:hover {
+	border-bottom: 2px solid gold;
+	border-radius: 1em;
+	padding: 0.25em;
+	transition-duration: 0.5s;
 }
 
 
@@ -142,14 +151,14 @@ h1 {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1px;
-	margin: 3em 3em;
+	margin: 3em 5em 5em 5em;
 	background-color: rgba(45, 45, 45, 85%);
-	padding: 1em;
+	padding: 2em;
 	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
 }
 
 .nowPlaying {
-	width: 20em;
+	width: 17em;
 	margin: 1em auto;
 	cursor: pointer;
 }
