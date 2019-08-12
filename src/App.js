@@ -17,7 +17,7 @@ const App = () => {
 		<div className= 'menu-items'>
 		<Link to= '/' exact component= {Home} > Home </Link>
 		<Link to= '/contact' component= {Contact} > Contact </Link>
-		<Link to= '/mywork' component= {Work} > Work </Link>
+		<Link to= '/work' component= {Work} > Work </Link>
 		<Link to= '/skills' component= {Skills} >Skills</Link>
 		</div>
 		</nav>
@@ -25,7 +25,7 @@ const App = () => {
 		<div>
 			<Route path= '/' exact component= {Home} />
 			<Route path= '/contact' component= {Contact} />
-			<Route path= '/mywork' component= {Work} />
+			<Route path= '/work' component= {Work} />
 			<Route path= '/skills' component= {Skills} />
 		</div>
 	</Router>

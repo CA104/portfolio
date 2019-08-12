@@ -10,7 +10,7 @@ const Home = () => {
 		<div className='bio animated fadeInRight'>
 			<h2>About me</h2>
       <p>Hey there, my name is Carlos Arellano. A FrontEnd Web Developer 
-		  recently graduated from the Web Design and Development program at humber. 
+		  currently attending the Web Design and Development program at humber. 
 			I began my journey in the Developing world almost 2 years ago when I was 
 			enrolled in a program at Sheridan College. In the last couple of years I have 
 			become quite passionate for creating experiences using different tools and colours 

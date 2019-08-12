@@ -68,7 +68,7 @@ h1 {
 	background-color: rgba(45, 45, 45, 85%);
 	margin: 5.5em 1em 2em 1em;
 	border-radius: 0.25em;
-	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
+	box-shadow: 0.75em 0.75em 0.75em rgb(25, 25, 25);
 }
 
 .bio {
@@ -78,7 +78,7 @@ h1 {
 	margin: 5em 5em;
 	animation-duration: 1s;
 	background-color: rgba(45, 45, 45, 85%);
-	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
+	box-shadow: 0.75em 0.75em 0.75em rgb(25, 25, 25);
 	border-radius: 0.25em;
 }
 
@@ -96,12 +96,12 @@ h1 {
 /*****   SKILLS   *****/
 .languages {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1em;
-	padding: 2em;
+	padding: 3em 2em;
 	background-color: rgba(45, 45, 45, 85%);
-	margin: 3em 0 5em 0;
-	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
+	margin: 3em 2em 5em 2em;
+	box-shadow: 0.75em 0.75em 0.75em rgb(25, 25, 25);
 }
 
 .languages img {
@@ -112,6 +112,7 @@ h1 {
 	border: 1px solid rgb(64, 224, 208);
 	border-radius: 5em;
 	transition-duration: 0.25s;
+	margin: 0 auto;
 }
 
 .languages img:hover {
@@ -130,7 +131,7 @@ h1 {
 	padding: 5em 0;
 	margin: 3em 5em 5em 5em;
 	background-color: rgba(45, 45, 45, 85%);
-	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
+	box-shadow: 0.75em 0.75em 0.75em rgb(25, 25, 25);
 }
 
 .contact:hover {
@@ -154,7 +155,7 @@ h1 {
 	margin: 3em 5em 5em 5em;
 	background-color: rgba(45, 45, 45, 85%);
 	padding: 2em;
-	box-shadow: 0.75em 0.75em 0.75em rgb(45, 45, 45);
+	box-shadow: 0.75em 0.75em 0.75em rgb(25, 25, 25);
 }
 
 .nowPlaying {
@@ -175,7 +176,7 @@ h1 {
 
 
 /*****   MEDIA QUERY   *****/
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 800px) {
 
 	.menu-items {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -188,12 +189,14 @@ h1 {
 	}
 
 	.languages {
-		margin: 3em 2em 2em 2em;
-		padding: 3em;
+		margin: 3em 5em 5em 5em;
+		padding: 4em 3em;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 
 	.languages img {
-		width: 7em;
+		width: 5em;
+		margin: 0 auto;
 	}
 
 	.project {
