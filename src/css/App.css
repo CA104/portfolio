@@ -206,7 +206,7 @@ h1 {
 
 	.nowPlaying {
 		width: 30em;
-		margin: 0 auto 1em auto;
+		margin: auto;
 		cursor: pointer;
 	}
 

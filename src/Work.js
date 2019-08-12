@@ -12,7 +12,7 @@ const Work = (  ) => {
 
 			<div className= 'project animated fadeInRight'>
 				<a href="http://nowplaying.arellanodesigns.ca/" target= '_blank' rel='noreferrer noopener'>
-				<img src= {nowPlaying} alt= 'Now Playing project preview' className= 'nowPlaying' id= 'nowPlaying' />
+				<img src= {nowPlaying} alt= 'Now Playing project preview' className= 'nowPlaying' />
 				</a>
 				<p className= 'about-site'>
 					<h2>nowPlaying</h2>
@@ -31,7 +31,7 @@ const Work = (  ) => {
 
 			<div className= 'project animated fadeInRight'>
 				<a href="http://nowplaying.arellanodesigns.ca/" target= '_blank' rel='noreferrer noopener'>
-				<img src= {rbnb} alt= 'Breakfast&Chill project preview' className= 'nowPlaying' id= 'nowPlaying' />
+				<img src= {rbnb} alt= 'Breakfast&Chill project preview' className= 'nowPlaying' />
 				</a>
 				<p className= 'about-site'>
 					<h2>Breakfast&Chill</h2>
@@ -53,7 +53,7 @@ const Work = (  ) => {
 
 			<div className= 'project animated fadeInRight'>
 				<a href="/" target= '_blank' rel='noreferrer noopener'>
-				<img src= {humberPro} alt= 'Humber WDDM final project preview' className= 'nowPlaying' id= 'nowPlaying' />
+				<img src= {humberPro} alt= 'Humber WDDM final project preview' className= 'nowPlaying' />
 				</a>
 				<p className= 'about-site'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 			Consequuntur, modi. Repellendus labore tempore, libero, 
