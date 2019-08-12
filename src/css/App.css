@@ -176,6 +176,13 @@ h1 {
 	margin: 1em auto;
 }
 
+.tools li {
+	color: rgba(255, 20, 147, 100%);
+	list-style-type: square;
+	list-style-position: inside;
+	text-align: left;
+}
+
 
 
 /*****   MEDIA QUERY   *****/

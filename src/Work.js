@@ -19,7 +19,7 @@ const Work = (  ) => {
 				Now playing is a responsive website that allows the user to find the latest 
 				movies in their area, it also displays information such as a current rating, release date, synopsis and an 
 				official trailer.
-				<ul>
+				<ul className= 'tools'>
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>Javascript</li>
@@ -39,7 +39,7 @@ const Work = (  ) => {
 					in some of the major cities in the world. The user is also able to create a user 
 					account and filter rooms based in the city of their interest. Text message and
 					email confirmation will be sent to the user when creating an account. 
-					<ul>
+					<ul className= 'tools'>
 						<li>NodeJS</li>
 						<li>MongoDB</li>
 						<li>Mongoose</li>
