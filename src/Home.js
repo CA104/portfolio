@@ -7,7 +7,7 @@ const Home = () => {
 	return (
 		<>
 		<h1>Carlos Arellano</h1>
-		<div className='bio animated fadeInRight'>
+		<div className='bio animated fadeInUp'>
 			<h2>About me</h2>
       <p>Hey there, my name is Carlos Arellano. A FrontEnd Web Developer 
 		  currently attending the Web Design and Development program at humber. 
