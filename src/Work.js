@@ -20,6 +20,7 @@ const Work = (  ) => {
 				movies in their area, it also displays information such as a current rating, release date, synopsis and an 
 				official trailer.
 				<ul className= 'tools'>
+					<li><a href="https://github.com/CA104/movieDB-assignment" className= 'link' target= '_blank' rel='noreferrer noopener'>See the code</a></li>
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>Javascript</li>
@@ -40,6 +41,7 @@ const Work = (  ) => {
 					account and filter rooms based in the city of their interest. Text message and
 					email confirmation will be sent to the user when creating an account. 
 					<ul className= 'tools'>
+						<li><a href="https://github.com/CA104/rbnb" className= 'link' target= '_blank' rel='noreferrer noopener'>See the code</a></li>
 						<li>NodeJS</li>
 						<li>MongoDB</li>
 						<li>Mongoose</li>
@@ -52,14 +54,24 @@ const Work = (  ) => {
 			</div>
 
 			<div className= 'project animated fadeInRight'>
-				<a href="/" target= '_blank' rel='noreferrer noopener'>
+				<a href="https://humbermediapros.ca/#" target= '_blank' rel='noreferrer noopener'>
 				<img src= {humberPro} alt= 'Humber WDDM final project preview' className= 'nowPlaying' />
 				</a>
-				<p className= 'about-site'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-			Consequuntur, modi. Repellendus labore tempore, libero, 
-			natus at reiciendis nemo exercitationem assumenda alias 
-			cupiditate inventore pariatur veritatis repudiandae magnam, 
-			ex dolore. Necessitatibus.</p>
+				<p className= 'about-site'>
+				<h2>Humber WDDM-2019</h2>
+				This project was created by the alumni of the Web Designs and Development porgram. The site 
+				was created to promote the grad show and display some of the skills learned by the other two porgrams 
+				Graphic Design and 3D printing.
+				<ul className= 'tools'>
+					<li><a href="https://github.com/team-humber-web-2019/humber-media-pros" className= 'link' target= '_blank' rel='noreferrer noopener'>See the code</a></li>
+					<li>Gatsby</li>
+					<li>Sass</li>
+					<li>Bootstrap</li>
+					<li>GraphQL</li>
+					<li>GIT</li>
+					<li>GitHub</li>
+				</ul>
+				</p>
 			</div>
 
 		</div>

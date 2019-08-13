@@ -29,6 +29,7 @@ const App = () => {
 			<Route path= '/skills' component= {Skills} />
 		</div>
 	</Router>
+	
 	</>
   );
 }

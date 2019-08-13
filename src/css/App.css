@@ -183,6 +183,11 @@ h1 {
 	text-align: left;
 }
 
+.link {
+	color: rgb(64, 224, 208);
+	font-size: 1.25em;
+}
+
 
 
 /*****   MEDIA QUERY   *****/
