@@ -18,10 +18,10 @@ const Contact = (  ) => {
 				<a href={resume} download= '' className= 'info'>My Resume</a>
 				<div>
 				<a href="https://www.linkedin.com/in/carlos-arellano-43a530105/" target= '_blank' rel='noreferrer noopener' >
-				<img id= 'linkedIn' src= {linkedin} alt="" className= 'linkedin' />
+				<img id= 'linkedIn' src= {linkedin} alt="LinkedIn link to personal profile" className= 'linkedin' />
 				</a>
 				<a href="https://github.com/" target= '_blank' rel='noreferrer noopener' >
-				<img id= 'gitHub' src= {git} alt="" className= 'git' />
+				<img id= 'gitHub' src= {git} alt="Github link to personal profile" className= 'git' />
 				</a>
 			</div>
 

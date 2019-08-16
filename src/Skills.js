@@ -18,18 +18,18 @@ const Skills = () => {
 		<h1>Skills</h1>
 
 	  <div class="languages animated fadeInLeft">
-			  <img src= {html5} alt="" />
-			  <img src= {css} alt="" />
-			  <img src= {js} alt="" />
-			  <img src= {react} alt="" />
-			  <img src= {bootstrap} alt="" />
-			  <img src= {sass} alt="" />
-			  <img src= {nodejs} alt="" />
-			  <img src= {firebase} alt="" />
-			  <img src= {github} alt="" />
-			  <img src= {mongo} alt="" />
-			  <img src= {vs} alt="" />
-			  <img src= {gat} alt="" />
+			  <img src= {html5} alt="HTML5 logo" />
+			  <img src= {css} alt="CSS logo" />
+			  <img src= {js} alt="Javascript logo" />
+			  <img src= {react} alt="React logo" />
+			  <img src= {bootstrap} alt="Bootsrap logo" />
+			  <img src= {sass} alt="Sass logo" />
+			  <img src= {nodejs} alt="NodeJS logo" />
+			  <img src= {firebase} alt="Firebase logo" />
+			  <img src= {github} alt="Github logo" />
+			  <img src= {mongo} alt="MongoDB logo" />
+			  <img src= {vs} alt="VisualStudioCode logo" />
+			  <img src= {gat} alt="Gatsby logo" />
 		  </div>
 		  </>
 	)
