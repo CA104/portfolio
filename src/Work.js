@@ -31,7 +31,7 @@ const Work = (  ) => {
 			</div>
 
 			<div className= 'project animated fadeInRight'>
-				<a href="http://nowplaying.arellanodesigns.ca/" target= '_blank' rel='noreferrer noopener'>
+				<a href="https://breakfast-and-chill.herokuapp.com/" target= '_blank' rel='noreferrer noopener'>
 				<img src= {rbnb} alt= 'Breakfast&Chill project preview' className= 'nowPlaying' />
 				</a>
 				<p className= 'about-site'>
